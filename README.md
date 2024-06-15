@@ -23,20 +23,31 @@ Foro-Hub-main/
 │ ├── main/
 
 │ │ ├── java/
+
 │ │ │ └── com/
 
 │ │ │ └── ChallengeAlura/
 
 │ │ │ └── demo/
+
 │ │ │ ├── ApiApplication.java
+
 │ │ │ ├── controller/
+
 │ │ │ ├── domain/
+
 │ │ │ ├── infra/
+
 │ │ │ └── infra/
+
 │ │ └── resources/
+
 │ │ ├── application.properties
+
 │ │ └── db/
+
 │ └── test/
+
 └── README.md
 
 
