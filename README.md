@@ -68,11 +68,14 @@ Para ejecutar este proyecto, necesitarás:
 ```bash
 git clone <repository-url>
 cd Foro-Hub-main
-Construye el proyecto usando Maven:
+
+2. Construye el proyecto usando Maven:
+
 bash
 Copiar código
 ./mvnw clean install
-Ejecuta la aplicación:
+
+3. Ejecuta la aplicación:
 bash
 Copiar código
 ./mvnw spring-boot:run
