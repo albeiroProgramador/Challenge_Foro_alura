@@ -7,16 +7,26 @@ Foro Hub es una aplicación web diseñada para gestionar temas de foro y autenti
 El proyecto está estructurado de la siguiente manera:
 
 Foro-Hub-main/
+
 ├── .gitignore
+
 ├── mvnw
+
 ├── mvnw.cmd
+
 ├── pom.xml
+
 ├── .idea/
+
 ├── src/
+
 │ ├── main/
+
 │ │ ├── java/
 │ │ │ └── com/
+
 │ │ │ └── ChallengeAlura/
+
 │ │ │ └── demo/
 │ │ │ ├── ApiApplication.java
 │ │ │ ├── controller/
