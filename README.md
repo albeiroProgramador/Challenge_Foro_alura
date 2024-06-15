@@ -65,13 +65,11 @@ Para ejecutar este proyecto, necesitarás:
 
 1. Clona el repositorio:
 
-```bash
 git clone <repository-url>
 cd Foro-Hub-main
 
 2. Construye el proyecto usando Maven:
 
-bash
 Copiar código
 ./mvnw clean install
 
@@ -81,18 +79,25 @@ Copiar código
 ./mvnw spring-boot:run
 La aplicación comenzará a ejecutarse en http://localhost:8080.
 
-Descripción del Código
+
+# Descripción del Código
 Aplicación Principal
 ApiApplication.java: El punto de entrada principal de la aplicación Spring Boot.
-Controladores
+
+#Controladores
 controller/: Contiene los controladores que manejan las solicitudes HTTP para temas y autenticación.
 Dominio
 domain/topic/: Contiene los modelos de dominio y servicios relacionados con los temas del foro.
+
 domain/usuarios/: Contiene los modelos de dominio e interfaces de repositorio para la gestión de usuarios.
-Infraestructura
+
+#Infraestructura
 infra/security/: Contiene configuraciones de seguridad y servicios para manejar la autenticación y autorización.
+
 infra/errores/: Contiene clases de manejo de errores.
-Tecnologías y Bibliotecas Utilizadas
+
+## Tecnologías y Bibliotecas Utilizadas
+
 Spring Boot
 La aplicación utiliza Spring Boot para facilitar la configuración y el desarrollo de aplicaciones Java. Spring Boot permite crear aplicaciones independientes y productivas con un mínimo esfuerzo.
 
@@ -127,4 +132,4 @@ Contribución
 Si deseas contribuir a este proyecto, por favor haz un fork del repositorio y envía un pull request con tus cambios.
 
 Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto está licenciado bajo la Licencia 007 "Con licencia pra usar". Consulta el archivo LICENSE para más detalles.
